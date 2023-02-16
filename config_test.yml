@@ -1,0 +1,53 @@
+redis:
+  adders:
+    - "172.31.34.21:6371"
+    - "172.31.34.21:6372"
+    - "172.31.34.21:6373"
+    - "172.31.34.21:6374"
+    - "172.31.34.21:6375"
+    - "172.31.34.21:6376"
+  auth: admin123456
+  db: 0
+  port:
+
+mongodb:
+  # 基础链接参数
+  # 连接的库
+  database: contract
+  # 用户名
+  username: test
+  # 密码
+  password: admin6688
+  address: 172.31.9.28:27017
+  # 设置认证数据库，如果有的话
+  authentication-database: admin
+# rocket mq
+rocketmq:
+  producer:
+    group: go-push-ticker
+  name-server: 172.31.34.21:9876
+
+symbols:
+  - btcusdt
+  - ethusdt
+  - ltcusdt
+  - bchusdt
+  - etcusdt
+  - ethbtc
+  - ltcbtc
+  - bchbtc
+  - eosusdt
+  - trxusdt
+  - xrpusdt
+  - dashusdt
+  - dogeusdt
+  - bsvusdt
+  - adausdt
+  - adabep20usdt
+  - eoseth
+  - dogeeth
+  - bscusdt
+  - shibusdt
+  - uniusdt
+  - maticusdt
+  - matic1usdt

@@ -1,0 +1,54 @@
+redis:
+  adders:
+    - "127.0.0.1:7001"
+    - "127.0.0.1:7002"
+    - "127.0.0.1:7003"
+    - "127.0.0.1:7004"
+    - "127.0.0.1:7005"
+    - "127.0.0.1:7006"
+  auth: 123456789
+  db: 0
+  port:
+
+mongodb:
+  # 基础链接参数
+  # 连接的库
+  database: contract
+  # 用户名
+  username: test
+  # 密码
+  password: admin6688
+  address: 10.16.64.62:3600
+  # 设置认证数据库，如果有的话
+  authentication-database: platform
+
+# rocket mq
+rocketmq:
+  producer:
+    group: go-push-ticker
+  name-server: 10.16.64.18:9876
+
+symbols:
+  - btcusdt
+  - ethusdt
+  - ltcusdt
+  - bchusdt
+  - etcusdt
+  - ethbtc
+  - ltcbtc
+  - bchbtc
+  - eosusdt
+  - trxusdt
+  - xrpusdt
+  - dashusdt
+  - dogeusdt
+  - bsvusdt
+  - adausdt
+  - adabep20usdt
+  - eoseth
+  - dogeeth
+  - bscusdt
+  - shibusdt
+  - uniusdt
+  - maticusdt
+  - matic1usdt
