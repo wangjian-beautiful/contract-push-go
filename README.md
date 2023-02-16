@@ -1,2 +1,2 @@
-# gcex-contract-go
+# 基于Goland开发的交易所推送程序
 
